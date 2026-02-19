@@ -1,0 +1,11 @@
+services:
+  kitten-tts:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kitten-tts
+    ports:
+      - "7860:7860"
+    volumes:
+      - ./volume-hf:/root/.cache/huggingface
+    restart: always
