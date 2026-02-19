@@ -9,3 +9,5 @@ Build and run the Docker container in detached mode:
 ```bash
 docker compose up -d --build
 ```
+
+![Demo](Screenshot_20260219_133313.png)
